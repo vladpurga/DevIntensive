@@ -10,7 +10,7 @@
 
     <style name="stat_bar">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">104dp</item>
+        <item name="android:layout_height">@dimen/size_huge_112</item>
         <item name="android:background">@color/grey</item>
         <item name="android:orientation">horizontal</item>
     </style>

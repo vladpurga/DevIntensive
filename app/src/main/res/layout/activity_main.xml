@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -152,10 +157,12 @@
                     style="@style/item_et"
                     android:id="@+id/about_et"
                     android:hint="@string/about_me"
-                    android:text="Lorem ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do"/>
+                    android:text="Awesome"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
     </LinearLayout>
     <!-- end About -->
     <View style="@style/separator.horizontal"/>
 </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
