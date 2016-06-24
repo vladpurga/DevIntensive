@@ -17,4 +17,8 @@
     <dimen name="spacing_medium_32">32dp</dimen>
     <dimen name="spacing_large_56">56dp</dimen>
     <dimen name="spacing_larger_72">72dp</dimen>
+
+    <!-- Fonts -->
+    <dimen name="font_normal_16">16sp</dimen>
+    <dimen name="font_medium_24">24sp</dimen>
 </resources>

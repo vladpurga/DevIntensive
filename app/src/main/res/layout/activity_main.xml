@@ -5,6 +5,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ui.activities.MainActivity">
+    <!-- Stat -->
+    <LinearLayout style="@style/stat_bar">
+        <LinearLayout
+            style="@style/stat_item"
+            android:layout_weight=".25">
+            <TextView
+                style="@style/stat_text.value"
+                android:id="@+id/stat_rating_tv"
+                android:text="5"></TextView>
+            <TextView
+                style="@style/stat_text.desc"
+                android:text="@string/stat_rating"></TextView>
+        </LinearLayout>
+        <View style="@style/separator.vertical"/>
+        <LinearLayout
+            style="@style/stat_item"
+            android:layout_weight=".5">
+            <TextView
+                style="@style/stat_text.value"
+                android:id="@+id/stat_code_lines_tv"
+                android:text="5"></TextView>
+            <TextView
+                style="@style/stat_text.desc"
+                android:text="@string/stat_code_lines"></TextView>
+        </LinearLayout>
+        <View style="@style/separator.vertical"/>
+        <LinearLayout
+            style="@style/stat_item"
+            android:layout_weight=".25">
+            <TextView
+                style="@style/stat_text.value"
+                android:id="@+id/stat_projects_tv"
+                android:text="5"></TextView>
+            <TextView
+                style="@style/stat_text.desc"
+                android:text="@string/stat_projects"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- end Stat -->
     <!-- Mobile -->
     <LinearLayout style="@style/line">
         <ImageView
@@ -27,7 +66,7 @@
             android:src="@drawable/ic_phone_in_talk_black_24dp"/>
     </LinearLayout>
     <!-- end Mobile -->
-    <View style="@style/separator"/>
+    <View style="@style/separator.horizontal"/>
     <!-- Email -->
     <LinearLayout style="@style/line">
         <ImageView
@@ -51,7 +90,7 @@
             />
     </LinearLayout>
     <!-- end Email -->
-    <View style="@style/separator"/>
+    <View style="@style/separator.horizontal"/>
     <!-- VK Profile -->
     <LinearLayout style="@style/line">
         <ImageView
@@ -75,7 +114,7 @@
             />
     </LinearLayout>
     <!-- end VK Profile -->
-    <View style="@style/separator"/>
+    <View style="@style/separator.horizontal"/>
     <!-- Github Repository -->
     <LinearLayout style="@style/line">
         <ImageView
@@ -99,7 +138,7 @@
             />
     </LinearLayout>
     <!-- end Github Repository -->
-    <View style="@style/separator"/>
+    <View style="@style/separator.horizontal"/>
     <!-- About -->
     <LinearLayout style="@style/line">
         <ImageView
@@ -118,5 +157,5 @@
         </LinearLayout>
     </LinearLayout>
     <!-- end About -->
-    <View style="@style/separator"/>
+    <View style="@style/separator.horizontal"/>
 </LinearLayout>
