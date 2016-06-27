@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Влад Пурга</string>
+    <string name="mobile_phone">Мобильный</string>
+    <string name="email">E-mail</string>
+    <string name="profile_vk">Профиль в VK</string>
+    <string name="repo_github">Репозиторий</string>
+    <string name="about_me">О себе</string>
+    <string name="stat_rating">Рейтинг</string>
+    <string name="stat_code_lines">Написано строк кода</string>
+    <string name="stat_projects">Проектов</string>
 </resources>
